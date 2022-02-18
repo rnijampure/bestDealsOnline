@@ -1,0 +1,89 @@
+.card-container {
+  flex-direction: row;
+  width: 100%;
+}
+mat-card,
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
+}
+.example-card {
+  flex-direction: column;
+  flex-basis: 1;
+  flex-shrink: 0;
+
+  margin: 20px;
+  flex: 1;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  background-color: white;
+  min-width: 25%;
+  max-width: 25%;
+}
+div.example-card {
+  width: 20%;
+  margin: 20px;
+}
+
+.ng-trigger-transform.mat-drawer-opened {
+  transition: 2s all;
+  transform: translate3d(0%, 0, 0);
+  visibility: visible !important;
+  width: 15%;
+  background-color: #f3f3f1;
+}
+.mat-drawer {
+  transition: 2s all;
+}
+
+.example-sidenav-content.mat-drawer-opened {
+  transition: 2s all;
+  transform: translate3d(18%, 0, 0);
+  visibility: visible !important;
+  max-width: 86%;
+}
+.example-sidenav-content {
+  transition: 2s all;
+  transform: translate3d(0%, 0, 0);
+  visibility: visible !important;
+}
+
+ul {
+  margin: 0px;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+  border-top: 1px solid gray;
+  width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+li.active-li {
+  font-weight: 500;
+  background-color: #404040;
+  color: white;
+}
+.full-width-image {
+  height: 300px;
+  width: 100%;
+  background-position: top;
+  background-size: 45%;
+  background-color: #fab500;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/thinking_women.jpg);
+}
+.full-width-image:hover {
+  height: 300px;
+  width: 100%;
+  background-position: top;
+  background-size: 45%;
+  background-color: #fab500;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/women_happy.png);
+}
+
+.example-sidenav.side-nav {
+  padding-top: 50px;
+}
